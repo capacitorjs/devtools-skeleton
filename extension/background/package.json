@@ -1,0 +1,22 @@
+{
+  "name": "panel",
+  "version": "0.0.0",
+  "description": "The DevTools background",
+  "main": "lib/",
+  "scripts": {
+    "test": "gulp test",
+    "ci-test": "gulp dist"
+  },
+  "keywords": [],
+  "author": "Christian Maher",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "devtools-helpers": "git+https://github.com/capacitorjs/devtools-helpers.git"
+  },
+  "devDependencies": {
+    "eslintrc": "git+https://github.com/capacitorjs/eslintrc.git#v1.0.0",
+    "gulp": "^3.9.0",
+    "gulp-capacitorjs-common": "git+https://github.com/capacitorjs/gulp-capacitorjs-common.git#v0.1.2"
+  },
+  "private": true
+}
